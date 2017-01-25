@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+  .top-nav {
+    > .top-nav-menu {
+      float: none;
+      font-size: 108%;
+      letter-spacing: 1px;
+      margin-top: 60px;
+      > a > li {
+        float: none;
+        text-align: center;
+        margin: 0 0 15px auto;
+        // help taehanlee
+        // display: inline-block;
+      }
+    }
+  }
+  .description {
+    margin-bottom: 20px;
+  }
+  .bottom-nav {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    > .left-item, .right-item {
+      float: none;
+      display: inline;
+    }
+    .item-img {
+      display: none;
+    }
+    .item-title {
+      font-size: 1.15em;
+      padding-bottom: 60px;
+    }
+  }
+  .footer {
+    font-size: 0.95em;
+    padding-top: 80px;
+  }
+}

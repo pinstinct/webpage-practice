@@ -1,0 +1,9 @@
+@media screen and (max-width: 720px) {
+  .top-nav > a > .logo-img {
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  .top-nav > .top-nav-menu {
+    float: left; }
+    .top-nav > .top-nav-menu > a > li {
+      margin: 0 22px 0 auto; } }

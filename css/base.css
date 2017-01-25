@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  font-size: 100%;
+}
+
+html {
+  background-image: url(../image/bg.jpg);
+}
+
+a {
+  text-decoration: none;
+  transition: all .125s linear;
+}
+
+a#color {
+  color: #fc945d;
+}
+
+a#color:hover {
+  color: #52b0d5;
+}
+
+a#black {
+  color: #252525;
+}
+
+a#black:hover {
+  color: #fc945d;
+}

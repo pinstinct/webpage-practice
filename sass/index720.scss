@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px) {
+  .top-nav {
+    > a {
+      > .logo-img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    > .top-nav-menu {
+      float: left;
+      > a > li {
+        margin: 0 22px 0 auto;
+        // help taehanlee
+        // display: inline-block;
+      }
+    }
+  }
+}
